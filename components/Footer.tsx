@@ -15,9 +15,9 @@ const Footer: React.FC = () => {
           
           {/* Brand & Social */}
           <div className="lg:col-span-4 space-y-8">
-            <h3 className="text-4xl font-serif font-bold gold-text">ESPO</h3>
+            <h3 className="text-4xl font-serif font-bold text-amber-400">ESPO</h3>
             <p className="text-white/50 leading-relaxed">
-              WE ARE OPEN NOW!! Start your day right—sip, savor, and smile at our coffee lounge. Experience the pinnacle of luxury noir culture.
+              WE ARE OPEN NOW!! Start your day right—sip, savor, and smile at our coffee lounge. Experience the pinnacle of luxury noir culture in Hyderabad.
             </p>
             <div className="flex gap-4">
               <a
@@ -79,7 +79,7 @@ const Footer: React.FC = () => {
                 loading="lazy"
               />
             </div>
-            <p className="mt-4 text-[10px] uppercase tracking-widest text-amber-400 text-center">Espo Coffee Lounge • Hyderabad</p>
+            <p className="mt-4 text-[10px] uppercase tracking-widest text-amber-400 text-center font-bold">Espo Coffee Lounge • Hyderabad</p>
           </div>
         </div>
 

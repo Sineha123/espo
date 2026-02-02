@@ -7,7 +7,7 @@ const About: React.FC = () => {
     <section id="about" className="py-32 px-6 md:px-12 bg-[#0D0D0D] overflow-hidden">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-24 items-center">
         
-        {/* Left: Atmospheric Visual - Reflecting the actual lounge interior */}
+        {/* Left: Atmospheric Visual - Reflecting the actual lounge interior aesthetic */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -17,8 +17,8 @@ const About: React.FC = () => {
         >
           <div className="relative z-10 rounded-2xl overflow-hidden border border-white/5 group shadow-2xl">
             <img 
-              src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=1200" 
-              alt="Espo Coffee Lounge Interior" 
+              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=1200" 
+              alt="Espo Coffee Lounge Interior Vibe" 
               className="w-full aspect-[4/5] object-cover transition-transform duration-[2s] group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80" />
@@ -39,28 +39,32 @@ const About: React.FC = () => {
           viewport={{ once: true }}
           transition={{ duration: 1, delay: 0.3 }}
         >
-          <h2 className="text-amber-400 text-[10px] uppercase tracking-[0.6em] mb-6 font-bold">THE HERITAGE</h2>
+          <h2 className="text-amber-400 text-[10px] uppercase tracking-[0.6em] mb-6 font-bold">OUR STORY</h2>
           <h3 className="text-5xl md:text-7xl font-serif text-white mb-10 leading-[1.1] tracking-tight">
-            Where Craft Meets <span className="italic text-white/40">Dark Elegance.</span>
+            The Hub of <span className="italic text-white/40">Warmth & Culture.</span>
           </h3>
           
           <div className="space-y-8 text-white/60 leading-relaxed text-lg font-light">
             <p>
-              Espo Coffee Lounge isn't just a destination; it's an aesthetic experience. Born in the heart of winter 2023, we redefined the coffee house as a "Social Sanctuary." 
+              Espo Coffee Lounge is Hyderabad's premier destination for those who seek more than just a cup of coffee. WE ARE OPEN NOW to serve you the finest artisanal blends in an atmosphere of refined noir elegance.
             </p>
             <p>
-              Our noir-inspired interiors, characterized by deep textures and warm golden accents, create an intimate backdrop for meaningful conversations and artisanal discovery. 
+              Our signature lighting and modern lounge seating, seen in our iconic Hyderabad location, provide the perfect "Social Sanctuary" to sip, savor, and smile.
             </p>
             <blockquote className="border-l-2 border-amber-400 pl-8 py-2 italic text-white text-xl font-serif">
-              "We believe that the finest coffee deserves the finest atmosphere. No compromises, only perfection."
+              "Every corner is a story, every sip is an experience."
             </blockquote>
           </div>
 
           <motion.button
             whileHover={{ x: 10 }}
             className="mt-12 flex items-center gap-6 text-amber-400 uppercase tracking-[0.4em] text-[10px] font-bold group"
+            onClick={() => {
+              const menu = document.querySelector('#menu');
+              menu?.scrollIntoView({ behavior: 'smooth' });
+            }}
           >
-            <span>Read Our Philosophy</span>
+            <span>Explore Our Menu</span>
             <div className="w-16 h-[1px] bg-amber-400/30 group-hover:w-24 transition-all duration-500" />
           </motion.button>
         </motion.div>
