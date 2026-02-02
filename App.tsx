@@ -1,18 +1,18 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import CursorFollower from './components/CursorFollower';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import MenuSection from './components/MenuSection';
-import Craft from './components/Craft';
-import Social from './components/Social';
-import Testimonials from './components/Testimonials';
-import Footer from './components/Footer';
-import Logo from './components/Logo';
-import OrderingSystem from './components/OrderingSystem';
-import ReservationModal from './components/ReservationModal';
+import CursorFollower from './components/CursorFollower.tsx';
+import Navbar from './components/Navbar.tsx';
+import Hero from './components/Hero.tsx';
+import About from './components/About.tsx';
+import MenuSection from './components/MenuSection.tsx';
+import Craft from './components/Craft.tsx';
+import Social from './components/Social.tsx';
+import Testimonials from './components/Testimonials.tsx';
+import Footer from './components/Footer.tsx';
+import Logo from './components/Logo.tsx';
+import OrderingSystem from './components/OrderingSystem.tsx';
+import ReservationModal from './components/ReservationModal.tsx';
 
 const App: React.FC = () => {
   const [loading, setLoading] = useState(true);

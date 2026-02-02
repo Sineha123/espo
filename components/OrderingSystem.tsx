@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, ShoppingBag, Plus, Minus, Search } from 'lucide-react';
-import { fullMenuData } from './MenuSection';
+import { fullMenuData } from './MenuSection.tsx';
 
 interface OrderingSystemProps {
   isOpen: boolean;

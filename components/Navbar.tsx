@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion, useScroll } from 'framer-motion';
-import Logo from './Logo';
+import Logo from './Logo.tsx';
 
 interface NavbarProps {
   onOpenOrder: () => void;
