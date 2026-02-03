@@ -9,6 +9,7 @@ import MenuSection from './components/MenuSection.tsx';
 import Craft from './components/Craft.tsx';
 import Social from './components/Social.tsx';
 import Testimonials from './components/Testimonials.tsx';
+import Contact from './components/Contact.tsx';
 import Footer from './components/Footer.tsx';
 import Logo from './components/Logo.tsx';
 import OrderingSystem from './components/OrderingSystem.tsx';
@@ -70,6 +71,7 @@ const App: React.FC = () => {
                <Social />
             </div>
             <Testimonials />
+            <Contact />
             <Footer />
             
             <OrderingSystem 

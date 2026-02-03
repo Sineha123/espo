@@ -7,7 +7,7 @@ const About: React.FC = () => {
     <section id="about" className="py-32 px-6 md:px-12 bg-[#0D0D0D] overflow-hidden">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-24 items-center">
         
-        {/* Left: Atmospheric Visual - Reflecting the actual lounge interior aesthetic */}
+        {/* Left: Atmospheric Visual - Reverted to high-quality aesthetic */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -18,7 +18,7 @@ const About: React.FC = () => {
           <div className="relative z-10 rounded-2xl overflow-hidden border border-white/5 group shadow-2xl">
             <img 
               src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=1200" 
-              alt="Espo Coffee Lounge Interior Vibe" 
+              alt="Espo Coffee Lounge Atmosphere" 
               className="w-full aspect-[4/5] object-cover transition-transform duration-[2s] group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80" />
