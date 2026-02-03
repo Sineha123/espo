@@ -14,15 +14,15 @@ const socialImages = [
   },
   { 
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRashB-3NICqkHwsLXXPdffWQn-e0h0N-8cLQ&s",
-    link: "https://www.instagram.com/espo_coffee_lounge/"
-  },
-  { 
-    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBJ66wIX9SuV_K6Ji7wIik3wY5-OJJ2M7KnQ&s",
     link: "https://www.instagram.com/p/DScM8fGjHYV/"
   },
   { 
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBJ66wIX9SuV_K6Ji7wIik3wY5-OJJ2M7KnQ&s",
+    link: "https://www.instagram.com/p/DUQJBNajTAY/"
+  },
+  { 
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ508A8ArHYl7ZkrtPrzNtdKE11kRvDUiTaA&s",
-    link: "https://www.instagram.com/espo_coffee_lounge/"
+    link: "https://www.instagram.com/p/DScM8fGjHYV/"
   },
   { 
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQecrvBZuuG9dL-17tzoQHu3L6iC4vLEBmjTQ&s",
@@ -48,7 +48,7 @@ const Social: React.FC = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-amber-400 text-[10px] uppercase tracking-[0.5em] mb-4 font-bold">The Social Scene</h2>
+            <h2 className="text-amber-400 text-[10px] uppercase tracking-[0.5em] mb-4 font-bold">THE SOCIAL SCENE</h2>
             <h3 className="text-4xl md:text-5xl font-serif text-white">Join the Community</h3>
           </motion.div>
           
@@ -88,11 +88,11 @@ const Social: React.FC = () => {
                 className="w-full h-full object-cover aspect-square transition-transform duration-[1.5s] group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-center justify-center backdrop-blur-[2px]">
-                <div className="flex flex-col items-center gap-3 scale-90 group-hover:scale-100 transition-transform">
-                  <div className="p-3 bg-amber-400 rounded-full shadow-xl shadow-amber-400/20">
+                <div className="flex flex-col items-center gap-3 scale-90 group-hover:scale-100 transition-transform text-center p-4">
+                  <div className="p-3 bg-amber-400 rounded-full shadow-xl shadow-amber-400/20 mb-2">
                     <Instagram className="text-black w-5 h-5" />
                   </div>
-                  <span className="text-[8px] uppercase tracking-[0.4em] font-bold text-white">View Post</span>
+                  <span className="text-[10px] uppercase tracking-[0.4em] font-bold text-white leading-tight">Follow Our Journey</span>
                 </div>
               </div>
             </motion.a>
